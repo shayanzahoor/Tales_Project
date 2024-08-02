@@ -69,7 +69,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   fit: BoxFit.cover,
                   ),
                   ),
-             SizedBox(height: 15),
+               SizedBox(height: 15),
                Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.start,
