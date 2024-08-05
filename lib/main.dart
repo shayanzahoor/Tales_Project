@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wondertales/Views/Story_Screen/Play_Story.dart';
+import 'package:wondertales/Views/Profile_Screen/Profile_Screen.dart';
 
 
 void main() {
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Play_Story(),
+      home: NextScreen(),
     );
   }
 }

@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+
 class Travels_withFriends extends StatefulWidget {
+
   const Travels_withFriends({super.key});
 
   @override
@@ -9,9 +11,10 @@ class Travels_withFriends extends StatefulWidget {
 }
 
 class _Travels_withFriendsState extends State<Travels_withFriends> {
+
   @override
   Widget build(BuildContext context) {
-    Size size = MediaQuery.of(context).size;
+  Size size = MediaQuery.of(context).size;
     return Scaffold(
       body: SingleChildScrollView(
         child: Column(
@@ -60,8 +63,7 @@ class _Travels_withFriendsState extends State<Travels_withFriends> {
                             size: 30,
                             ),
                           ),
-                        ),
-                                        
+                        ),                 
                       ],
                     ),
                   ],
@@ -90,7 +92,7 @@ class _Travels_withFriendsState extends State<Travels_withFriends> {
                       ),
                     ),
                   ],
-                              ),
+                 ),
                 ),
                Padding(
                  padding: const EdgeInsets.symmetric(horizontal: 40),
